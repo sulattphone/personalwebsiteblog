@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/personalwebsiteblog/static/css/main.073c9b0a.css",
-    "main.js": "/personalwebsiteblog/static/js/main.38d7a734.js",
+    "main.css": "/personalwebsiteblog/static/css/main.15c5a75e.css",
+    "main.js": "/personalwebsiteblog/static/js/main.d7397443.js",
     "static/js/787.fb0cae05.chunk.js": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js",
-    "static/media/logo.svg": "/personalwebsiteblog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/home-background.jpg": "/personalwebsiteblog/static/media/home-background.0ffa6f330de16f91e0c3.jpg",
+    "static/media/graduation-cap.jpg": "/personalwebsiteblog/static/media/graduation-cap.94f5d3793a84adea9766.jpg",
+    "static/media/home-carousel-projects.jpg": "/personalwebsiteblog/static/media/home-carousel-projects.9c33ea7de587292075d8.jpg",
+    "static/media/home-carousel-blog.jpg": "/personalwebsiteblog/static/media/home-carousel-blog.188bd76b92ee32896e32.jpg",
+    "static/media/my-pic.jpeg": "/personalwebsiteblog/static/media/my-pic.38ded02aed73ba389975.jpeg",
+    "static/media/home-carousel-experience.jpg": "/personalwebsiteblog/static/media/home-carousel-experience.c47a49b19fd81a113997.jpg",
+    "static/media/home-carousel-me.jpg": "/personalwebsiteblog/static/media/home-carousel-me.b84cfafeceba5eabfbe3.jpg",
+    "static/media/personalWebsiteLogo.png": "/personalwebsiteblog/static/media/personalWebsiteLogo.1478dce395542c9e81d2.png",
+    "static/media/navIcon.png": "/personalwebsiteblog/static/media/navIcon.39be5b3847ae268cf791.png",
+    "static/media/navCloseIcon.png": "/personalwebsiteblog/static/media/navCloseIcon.aa73fe2d3ef118008a45.png",
+    "static/media/yellow-star.svg": "/personalwebsiteblog/static/media/yellow-star.da902792234bf2a01a58.svg",
     "index.html": "/personalwebsiteblog/index.html",
-    "main.073c9b0a.css.map": "/personalwebsiteblog/static/css/main.073c9b0a.css.map",
-    "main.38d7a734.js.map": "/personalwebsiteblog/static/js/main.38d7a734.js.map",
+    "main.15c5a75e.css.map": "/personalwebsiteblog/static/css/main.15c5a75e.css.map",
+    "main.d7397443.js.map": "/personalwebsiteblog/static/js/main.d7397443.js.map",
     "787.fb0cae05.chunk.js.map": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.38d7a734.js"
+    "static/css/main.15c5a75e.css",
+    "static/js/main.d7397443.js"
   ]
 }
