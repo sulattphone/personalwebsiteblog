@@ -1,0 +1,30 @@
+{
+  "schools": [
+    {
+      "name": "UC Berkeley",
+      "description": "I transferred into UC Berkeley College of Engineering with Electrical Engineering and Computer Science major in my junior year.  As a transfer, I had to take a few lower division courses before starting to take the upper division CS courses.  At the same time, I was part of IEEE UC Berkley student branch as the club's Website Committee Director, leading the website team to innovate, improve and maintain the club's website, our main outreach medium to the student body.  I graduated with B.S. in EECS (Electrical Engineering and Computer Science) in May 2021.",
+      "courses": ["Data Structures", "Computer Architecture", "Discrete Math and Probability Theory", "Artificial Intelligence", "Machine Learning", "Computer Security", "Computer Graphics"],
+      "schoolId": "schoolZero",
+      "schoolInfoId": "schoolInfoBerkeley"
+    },
+    {
+      "name": "College of San Mateo",
+      "description": "With the goal of transferring to UC Berkeley in mind, I took required courses and recommended courses in Computer Science, Maths, Physics and more.  At the same time, I was part of the Honors Research Society partaking the Honors Research Project for 3 semeters, and completed 3 papers and school-wide presentation on 3 different very interesting topics - WPA2 And KRACK vulnerability, Double Consciousness within Race and Gender, and Stable Marriage Problem.  I was selected for my paper on Double Consciousness within Race and Gender as a presenter and gave a talk/presentation at the Honors Research Symposium held at Stanford University.  In the meantime, I was also taking on 2 part-time jobs as a Computer Science Tutor and a Computer Lab Aide, keeping in touch with my field even outside of class.",
+      "courses": ["Object Oriented Programming and Design", "Programming Methods Java", "Data Structures Java", "Computer Architecture and Assembly Language", "Calculus 1-3", "Linear Algebra", "Differential Equations", "Discrete Mathematics", "Physics with Calculus 1-3"],
+      "schoolId": "schoolOne",
+      "schoolInfoId": "schoolInfoCSM"
+    },
+    {
+      "name": "Horizon International School",
+      "description": "I transferred to Horizon International School in the last year of my secondary school and completed my high school education there.  This is where I was first introduced to my now much loved field - computer science.  I also competed and won trophies in Essay competitions, both in English and in Burmese, Table-Tennis tournaments and Basketball tournaments. Horizon prepared me for IGCSE O' Level Examinations, which I took at the end of the last school year, and that was how I completed my high school education",
+      "schoolId": "schoolTwo",
+      "schoolInfoId": "schoolInfoHorizon"
+    },
+    {
+      "name": "B.E.P.P.S (3) BAHAN",
+      "description": "This is my first primary and secondary school, right after kindergarten.",
+      "schoolId": "schoolThree",
+      "schoolInfoId": "schoolInfoBEPPS"
+    }
+  ]
+}

@@ -1,13 +1,410 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/************** Universal ***********/
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+.page {
+    font-family: 'Asap', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+    font-family: 'Marko One', serif;
 }
+
+#darkOverlay {
+    background-color: #52575d;
+    opacity: 0.3;
+}
+
+.logo-img {
+    width: 3rem;
+    position: fixed;
+    top: 1rem;
+    left: 2rem;
+    z-index: 20;
+}
+
+.site-color-yellow {
+    color: #FEEC79;
+}
+
+.site-yellow-hr {
+    border: 0.5px solid #FEEC79;
+}
+
+.site-black-hr {
+    border: 0.5px solid #000000;
+}
+
+.site-grey-hr {
+    border: 0.5px solid #41444b;
+}
+
+#ulNoPadding {
+    padding: 0px !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.white-font {
+    color: #FFFFFF;
+}
+
+.row-fix {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #FEEC79;
+}
+
+@media(max-width: 575.98px) {
+    .logo-img {
+        width: 2.5rem;
+    }
+}
+
+
+/********** End Universal *********/
+
+
+/********** Home ****************/
+
+#homePage {
+    background-image: url(./images/home-background.jpg);
+    background-position-x: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-page-title {
+    color: #41444b;
+    font-size: 3rem;
+}
+
+.home-page-img {
+    margin: 2rem auto;
+    border-radius: 50%;
+    height: 8rem;
+    width: 8rem;
+}
+
+.home-carousel-link {
+    color: white;
+    text-decoration: none;
+}
+
+
+.carousel-img-div {
+    width: 100%;
+    height: 100vh;
+}
+
+.carousel-subTitle-div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#carouselPrev {
+    width: 3rem;
+    height: 3rem;
+}
+
+#carouselNext {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media(max-width: 575.98px) {
+    #carouselPrev {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    #carouselNext {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+@media(min-width: 1400px) {
+    .carousel-subTitle-div {
+        width: 50% !important;
+    }
+}
+
+@media(min-width: 1024px) {
+    .carousel-subTitle-div {
+        width: 70%;
+        font-size: 1.9rem !important;
+    }
+    .home-carousel-title {
+        font-size: 3rem !important;
+    }
+    .home-page-img {
+        width: 17rem !important;
+        height: 17rem !important;
+    }
+}
+
+@media(min-width: 768px) {
+    .carousel-subTitle-div {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .home-carousel-title {
+        font-size: 2.5rem;
+    }
+    .home-page-img {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+
+/********** End Home ************/
+
+
+/************* Navigation.css **************/
+
+.navIcon {
+    width: 3rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.navCloseIcon {
+    width: 2.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.sideNav {
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    opacity: 0.8;
+    right: 0rem;
+    z-index: 20;
+    transition: 0.3s;
+    padding: 7rem 1rem 1rem 1rem;
+    box-shadow: -10px 0px 10px;
+}
+
+.sideNavHide {
+    margin-right: -17rem;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.menu-item {
+    transition: 0.2s;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.menu-item:hover {
+    background-color:#FEEC79;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-item-link{
+    color: #FFFFFF;
+    transition: 0.2s;
+    font-size: 1.5rem;
+}
+
+.menu-item-link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navItemsDiv {
+    margin: auto;
+}
+
+.navItemsList {
+    padding: 0;
+    list-style-type: none;
+}
+
+
+@media(max-width: 575.98px) {
+    .menu-item {
+        font-size: 1.3rem;
+        margin-bottom: 1.3rem;
+    }
+}
+
+/************* Navigation ******************/
+
+/************* About.css ********************/
+
+.container-top-padding {
+    padding-top: 3rem;
+    min-height: 100vh;
+}
+
+.about-main-content-div {
+    width: 100%;
+    border-radius: 40px 40px 0rem 0rem;
+    min-height: 100vh;
+}
+
+.about-side-info-div {
+    width: 100%;
+    background-color: #41444b;
+    height: 35rem;
+    border-radius: 40px;
+    position: sticky;
+    top: 3rem;
+    padding: 1rem;
+}
+
+.about-main-img-div {
+    width: 100%;
+    height: 15rem;
+    background-image: url(./images/graduation-cap.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.about-side-img-div {
+    width: 12rem;
+    height: 12rem;
+    background-image: url(./images/my-pic.jpeg);
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.about-side-text-div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-side-text {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.about-side-ul li {
+    list-style-image: url(./images/yellow-star.svg);
+    padding-inline-start: 0.5rem;
+}
+
+.about-main-intro-div {
+    padding-top: 1rem;
+}
+
+.about-main-edu-school {
+    margin: 0 auto;
+    width: 9rem;
+    height: 9rem;
+    background-color: #fbe15f;
+    border-radius: 50%;
+    text-align: center;
+    padding: 0.5rem;
+    box-shadow: inset -1rem -1rem 2rem rgba(0,0,0,.5);
+    transition: 0.3s;
+}
+
+.about-main-edu-school:hover {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    box-shadow: inset -1.5rem -1.5rem 2rem rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.active-school {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    box-shadow: inset -1.5rem -1.5rem 2rem rgba(0,0,0,.5);
+    cursor: pointer;
+}
+
+.school-info-div {
+    margin-top: 1rem;
+    background-color: #727272;
+    color: #f6f4e6;
+    border-radius: 30px;
+    padding: 1rem;
+}
+
+.achievements-div {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/************** About **********************/
+
+
+/***************** FlipCard.css ****************/
+.flip-card {
+    perspective: 1000px;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 50px 0px 50px 0px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    padding: 0.5rem;
+    border-radius: 0px 50px 0px 50px;
+}
+
+.flip-card-title {
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -2rem;
+}
+
+
+
+
+/***************** FlipCard End *******************/
