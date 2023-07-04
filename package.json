@@ -2,7 +2,7 @@
   "name": "personalwebsiteblog",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://sulattphone.github.io/personalwebsiteblog)",
+  "homepage":"https://sulattphone.github.io/personalwebsiteblog",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
