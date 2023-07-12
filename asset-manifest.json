@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalwebsiteblog/static/css/main.15c5a75e.css",
-    "main.js": "/personalwebsiteblog/static/js/main.d7397443.js",
+    "main.css": "/personalwebsiteblog/static/css/main.852f6350.css",
+    "main.js": "/personalwebsiteblog/static/js/main.2728e045.js",
     "static/js/787.fb0cae05.chunk.js": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js",
     "static/media/home-background.jpg": "/personalwebsiteblog/static/media/home-background.0ffa6f330de16f91e0c3.jpg",
     "static/media/graduation-cap.jpg": "/personalwebsiteblog/static/media/graduation-cap.94f5d3793a84adea9766.jpg",
@@ -15,12 +15,12 @@
     "static/media/navCloseIcon.png": "/personalwebsiteblog/static/media/navCloseIcon.aa73fe2d3ef118008a45.png",
     "static/media/yellow-star.svg": "/personalwebsiteblog/static/media/yellow-star.da902792234bf2a01a58.svg",
     "index.html": "/personalwebsiteblog/index.html",
-    "main.15c5a75e.css.map": "/personalwebsiteblog/static/css/main.15c5a75e.css.map",
-    "main.d7397443.js.map": "/personalwebsiteblog/static/js/main.d7397443.js.map",
+    "main.852f6350.css.map": "/personalwebsiteblog/static/css/main.852f6350.css.map",
+    "main.2728e045.js.map": "/personalwebsiteblog/static/js/main.2728e045.js.map",
     "787.fb0cae05.chunk.js.map": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15c5a75e.css",
-    "static/js/main.d7397443.js"
+    "static/css/main.852f6350.css",
+    "static/js/main.2728e045.js"
   ]
 }
