@@ -10,6 +10,11 @@
     font-family: 'Marko One', serif;
 }
 
+.container-top-padding {
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
 #darkOverlay {
     background-color: #52575d;
     opacity: 0.3;
@@ -59,6 +64,14 @@
 .link:hover {
     text-decoration: none;
     color: #FEEC79;
+}
+
+.callout {
+  display: block;
+  margin: 1rem 0rem 0rem 1rem;
+  padding-left: 2rem;
+  border-style: none none none inset;
+  color: #757576;
 }
 
 @media(max-width: 575.98px) {
@@ -217,7 +230,6 @@
 .menu-item:hover {
     background-color:#FEEC79;
     color: #000000;
-    text-decoration: none;
 }
 
 .menu-item-link{
@@ -251,11 +263,6 @@
 /************* Navigation ******************/
 
 /************* About.css ********************/
-
-.container-top-padding {
-    padding-top: 3rem;
-    min-height: 100vh;
-}
 
 .about-main-content-div {
     width: 100%;
@@ -408,3 +415,19 @@
 
 
 /***************** FlipCard End *******************/
+
+/***************** Blog.css ************************/
+#blogPage {
+  background-image: url(./images/newspaper-background.jpeg);
+  background-position-x: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.blog-faded-background {
+  background-color: white;
+  opacity: 0.4;
+  height: 5em;
+}
+
+/****************** Blog End ************************/
