@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/personalwebsiteblog/static/css/main.e25b6145.css",
-    "main.js": "/personalwebsiteblog/static/js/main.04f6d86f.js",
+    "main.css": "/personalwebsiteblog/static/css/main.d8e6571b.css",
+    "main.js": "/personalwebsiteblog/static/js/main.eb2cbd01.js",
     "static/js/787.fb0cae05.chunk.js": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js",
     "static/media/home-background.jpg": "/personalwebsiteblog/static/media/home-background.0ffa6f330de16f91e0c3.jpg",
     "static/media/graduation-cap.jpg": "/personalwebsiteblog/static/media/graduation-cap.94f5d3793a84adea9766.jpg",
     "static/media/home-carousel-projects.jpg": "/personalwebsiteblog/static/media/home-carousel-projects.9c33ea7de587292075d8.jpg",
+    "static/media/my-pic.jpeg": "/personalwebsiteblog/static/media/my-pic.03e2f25b4dd467ab06f9.jpeg",
     "static/media/home-carousel-blog.jpg": "/personalwebsiteblog/static/media/home-carousel-blog.188bd76b92ee32896e32.jpg",
     "static/media/blog-top-bg.jpeg": "/personalwebsiteblog/static/media/blog-top-bg.d9035d52b5ba674c5176.jpeg",
-    "static/media/my-pic.jpeg": "/personalwebsiteblog/static/media/my-pic.38ded02aed73ba389975.jpeg",
     "static/media/software-interview-prep-cover-img.png": "/personalwebsiteblog/static/media/software-interview-prep-cover-img.8e2a351bbfd62978ffdb.png",
     "static/media/home-carousel-experience.jpg": "/personalwebsiteblog/static/media/home-carousel-experience.c47a49b19fd81a113997.jpg",
     "static/media/home-carousel-me.jpg": "/personalwebsiteblog/static/media/home-carousel-me.b84cfafeceba5eabfbe3.jpg",
@@ -17,12 +17,12 @@
     "static/media/navCloseIcon.png": "/personalwebsiteblog/static/media/navCloseIcon.aa73fe2d3ef118008a45.png",
     "static/media/yellow-star.svg": "/personalwebsiteblog/static/media/yellow-star.da902792234bf2a01a58.svg",
     "index.html": "/personalwebsiteblog/index.html",
-    "main.e25b6145.css.map": "/personalwebsiteblog/static/css/main.e25b6145.css.map",
-    "main.04f6d86f.js.map": "/personalwebsiteblog/static/js/main.04f6d86f.js.map",
+    "main.d8e6571b.css.map": "/personalwebsiteblog/static/css/main.d8e6571b.css.map",
+    "main.eb2cbd01.js.map": "/personalwebsiteblog/static/js/main.eb2cbd01.js.map",
     "787.fb0cae05.chunk.js.map": "/personalwebsiteblog/static/js/787.fb0cae05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e25b6145.css",
-    "static/js/main.04f6d86f.js"
+    "static/css/main.d8e6571b.css",
+    "static/js/main.eb2cbd01.js"
   ]
 }
