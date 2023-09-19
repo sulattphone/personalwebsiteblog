@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Router,  Route, Routes } from 'react-router-dom';
+import { BrowserRouter,  Route, Routes, HashRouter } from 'react-router-dom';
 import Logo from './components/Logo';
 import Home from './routes/Home';
 import AboutMe from './routes/AboutMe';
@@ -11,7 +11,7 @@ import SoftwareEngineeringInterview from './routes/articles/SoftwareEngineeringI
 class App extends Component {
     render() {
         return(
-            <BrowserRouter basename="/personalwebsiteblog">
+            <HashRouter>
               <Logo />
               <Navigation />
               <Routes>
@@ -22,7 +22,7 @@ class App extends Component {
                 {/* Articles Routes */}
                 <Route path='/blog/softwareengineeringinterviewprep' element={<SoftwareEngineeringInterview />} />
               </Routes>
-            </BrowserRouter>
+            </HashRouter>
         );
         
     }
