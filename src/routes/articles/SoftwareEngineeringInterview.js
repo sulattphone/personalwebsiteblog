@@ -3,11 +3,25 @@ import '../../index.css';
 import content from '../../json/articleContents/softwareEngineeringInterviewContent.json';
 
 class SoftwareEngineeringInterview extends Component {
+
+  constructor(props) {
+    super(props);
+    this.scrollToTop = this.scrollToTop.bind(this);
+  }
+
+  componentDidMount() {
+    this.scrollToTop();
+  }
+
+  scrollToTop() {
+    window.scrollTo(0, 0);
+  }
     
   render() {
     return(
       <div id="">
         <div className="container articles-container">
+        <div className="article-titular-img" id="softwareEngineeringInterviewPrepTitularImg"></div>
           <h1 className="article-title">{content.title}</h1>
           <p>{content.body.intro1}</p>
           <p>{content.body.intro2}</p>

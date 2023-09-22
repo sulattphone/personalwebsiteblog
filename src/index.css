@@ -10,6 +10,10 @@
     font-family: 'Marko One', serif;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 .container-top-padding {
   padding-top: 3rem;
   min-height: 100vh;
@@ -417,17 +421,75 @@
 /***************** FlipCard End *******************/
 
 /***************** Blog.css ************************/
-#blogPage {
-  background-image: url(./images/newspaper-background.jpeg);
-  background-position-x: center;
-  background-size: cover;
-  height: 100vh;
+.blog-cover-img {
+    background-image: url(./images/blog-cover-img.png);
+    background-position-x: center;
+    background-size: contain;
+    height: 100vh;
 }
 
-.blog-faded-background {
-  background-color: white;
-  opacity: 0.4;
-  height: 5em;
+.blog-cover-text-div {
+    padding-left: 6rem;
+    position: relative;
+    top: 50vh;
 }
 
+.blog-cover-title {
+    color: #fff;
+    font-size: 4rem;
+    text-shadow: 0 2px 4px grey;
+}
+
+.blog-cover-subtitle {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 0 2px 4px grey;
+}
+
+.article-card {
+    border: 0!important;
+    box-shadow: 10px 10px 15px;
+}
+
+.article-card-img-div {
+    background-image: url(./images/software-engineering-interview-prep-title-img.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.card-title {
+    color: var(--bs-card-title-color);
+    margin-bottom: var(--bs-card-title-spacer-y);
+}
+
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(33,37,41,.75)!important;
+    color: var(--bs-secondary-color)!important;
+}
 /****************** Blog End ************************/
+
+
+/********************* SoftwareEngineeringInterview ***************/
+.article-titular-img {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 50vh;
+    margin-bottom: 3rem;
+}
+
+.article-title {
+    text-align: center;
+    margin: 2rem;
+}
+
+#softwareEngineeringInterviewPrepTitularImg {
+    background-image: url(./images/software-engineering-interview-prep-title-img.png);
+}
+
+
+/********************* SoftwareEngineeringInterview End ***************/
+
